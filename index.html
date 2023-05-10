@@ -15,17 +15,27 @@
 </header>
 
 <body onload="init()">
+
     <section class="links-section"></section>
 
-    <section class="as2"></section>
-
-
+    <section class="dice-section spikes">
+        <img src="./assets/imgs/dice_1.jpeg" alt="" class="dice">
+        <button class="btn-dice" onclick="rollDice()">
+            <span class="btn-txt">👆 Roll</span>
+            <div class="loader hide"></div>
+        </button>
+    </section>
+    
+    <footer>Created by Tomer Vardi 2023</footer>
 
     <script src="js/services/storage.service.js"></script>
+    <script src="js/services/dice.service.js"></script>
     <script src="js/services/link.service.js"></script>
     <script src="js/controllers/link.controller.js"></script>
+    <script src="js/controllers/dice.controller.js"></script>
     <script src="js/main.js"></script>
 
 </body>
+
 
 </html>
