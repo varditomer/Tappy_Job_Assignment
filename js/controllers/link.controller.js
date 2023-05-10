@@ -11,7 +11,7 @@ function renderLinks(links) {
     gElLinksSection = document.querySelector('.links-section')
     let strHTML = ''
     links.forEach(link => {
-        strHTML += `<a class="link" style="color: ${link.color}" title="${link.text}" href="${link.href}">${link.text}</a>`
+        strHTML += `<a class="link" style="color: ${link.color}" title="${link.text}" href="https://www.${link.href}">${link.text}</a>`
     })
     gElLinksSection.innerHTML = `<div class="links">${strHTML}</div>`
 }
