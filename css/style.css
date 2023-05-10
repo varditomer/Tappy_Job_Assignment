@@ -13,3 +13,12 @@ p {
     margin: 0;
     line-height: 1;
 }
+
+/* Helpers */
+
+/*  */
+
+.links-section .links {
+    display: flex;
+    gap: 10px;
+}
